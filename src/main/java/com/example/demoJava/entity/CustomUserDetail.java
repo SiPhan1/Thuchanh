@@ -7,6 +7,7 @@ import java.util.Collection;
 import java.util.Collections;
 
 public class CustomUserDetail implements UserDetails {
+
     private final User user;
 
     public CustomUserDetail(User user) {
